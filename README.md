@@ -1,6 +1,6 @@
 # Learn Git Rethink
 
-##**ESTUDOS SOBRE GIT HUB:**
+## **ESTUDOS SOBRE GIT HUB:**
 
 **O que é um COMMIT:**
 
@@ -14,7 +14,7 @@ O Branch é uma ramificação  em um algum nível do cronograma, que pode ser ed
 
 Em portugues, mesclagem, é simplimente uma unificação na linha cronologica que esteja bifurcada por uma Branch. 
 
-##**Principais comandos:**
+## **Principais comandos:**
 
 `git commit -m "commit message"`:
  
@@ -24,4 +24,3 @@ Em portugues, mesclagem, é simplimente uma unificação na linha cronologica qu
 
  O codigo modifica o ultimo commit realizado, vale lembrar que não é criado um novo commit e sim apenas modifica.
 
- 
