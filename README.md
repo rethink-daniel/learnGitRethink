@@ -26,6 +26,11 @@ git clone "nome arquivo":
 O primeiro comando é de suma importancia pois é onde se cria um clone que possa modificar sem alterar diretamente no repositório.
 
 ```bash
+git status:
+```
+Mostra todos os desenvolvimentos atual do git, se há alguma modificação que precisa de um add ou de um commit por exemplo, situação que não estão salvas são informadas nesse comando, se tornando muito útil durando os processos. 
+
+```bash
 git add "nome do arquivo":
 ```
 Realiza a inclusão ou modificação do arquivo descrito no diretório local e o prepara para o `git commit`.
@@ -36,7 +41,7 @@ git commit -m "commit message":
  Esse codigo permite criar um commit imediato, e com um atalho para a mensagem de commit que será dada entre os as áspas ("..."). Esse atalho é permitido e dado pelo codigo `-m` após o codigo git commit, que originalmente abriria um editor de texto para pedir essa mensagem.
 
 ```bash
- `git commit --amend`:
+ git commit --amend:
 ```
  O codigo modifica o ultimo commit realizado, vale lembrar que não é criado um novo commit e sim apenas modifica.
 
@@ -56,7 +61,7 @@ git revert:
 Usa o endereço do commit para ir até ele, como se fosse um ctrl + z. A intenção é criar um commit novo que inverte as alterações especificadas. 
 
 ```bash
-git checkout 'nome da branch/main/origin:
+git checkout 'nome da branch/main/origin`:
 ```
 Esse é um comando importante pois possibilita navegar entre as branchs criadas e a main do repositório.
 
