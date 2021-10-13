@@ -15,9 +15,9 @@ O Branch é uma ramificação  em um algum nível do cronograma, que pode ser ed
 Em portugues, mesclagem, é simplimente uma unificação na linha cronologica que esteja bifurcada por uma Branch. 
 
 ## **Principais comandos:**
-
-`git commit -m "commit message"`:
- 
+```bash
+git commit -m "commit message":
+```
  Esse codigo permite criar um commit imediato, e com um atalho para a mensagem de commit que será dada entre os as áspas ("..."). Esse atalho é permitido e dado pelo codigo '-m' após o codigo git commit, que originalmente abriria um editor de texto para pedir essa mensagem.
 
  `git commit --amend`:
